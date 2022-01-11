@@ -1,9 +1,17 @@
 
   function copyToClipboard(target) {
-    var element = document.getElementById(target);
-    var text = element.innerHTML;
+    const element = document.getElementById(target);
+    const text = element.innerHTML;
     CopyToClipboard(text);
     //alert("Copied the text");
+    
+    const copied = document.querySelector(".copied");
+    setTimeout(function() {
+        copied.style.opacity=1
+    },500 )  
+    setTimeout(function() {
+        copied.style.opacity=0
+    },1000 ) 
   }
   function CopyToClipboard (text) {
     // Copies a string to the clipboard. Must be called from within an 
