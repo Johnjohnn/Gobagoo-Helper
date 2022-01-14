@@ -13,70 +13,91 @@
 <p>Welcome to the Gobagoo Helper this is just a site to help maximize your speed by copying and pasting usefull shortcuts I hope that it helps everyone , this is also an open project
     and anybody is welcome to add anything to it  Thanks and hope you like it! 
 </p>
-<h2> AVAILABILITY! </h2>
-<div class="container1">    
-        <p class="copyableInput grey49" id="p1">It appears to be listed as available, but I can have my team confirm availability for you!</p>
-        <button class="copyableInputButton" onclick="copyToClipboard('p1', 1000)" onclick="return">COPY</button> 
-        <h2>IF NOT SEEING INFORMATION</h2>
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#one" target="">HOW TO ANSWER QUESTIONS</a>
+    <a href="#two">RENTALS</a>
+    <a href="#three">CANCELING SERVICE APPOINMENTS</a>
+    <a href="#four">CONFIRM SERVICE APPOINMENTS</a>
+    <a href="#five">EMAIL REQUEST</a>
+    <a href="#six">FILLING OUT LEAD SERVICE</a>
+    <a href="#seven">PARTS</a>
+    <a href="#last" >FILLING OUT LEAD SALES</a>
+  </div>
+  <span style="font-size:60px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+
+
+
+
+<div class="container1">
+    <h2 id="one"> HOW TO ANSWER QUESTIONS</h2>
+       <h3>AVAILABILITY</h3>    
+            <p class="copyableInput grey49" id="p1">It appears to be listed as available, but I can have my team confirm availability for you!</p>
+            <button class="copyableInputButton" onclick="copyToClipboard('p1', 1000)" onclick="return">COPY</button> 
+        <h3 >IF NOT SEEING INFORMATION</h3>
         <p class="copyableInput grey66" id="p2">I apologize, I don't have that information on hand. However, I can have a member of our team confirm. </p>
         <button class="copyableInputButton" onclick="copyToClipboard('p2')">COPY</button>
 
-    <h2>IF NOT SEEING INVENTORY </h2>
+      <h3>IF NOT SEEING INVENTORY </h3>
         <p class="copyableInput greycc" id="p3">I do not see one listed Online however. Our online inventory is just a small representation of what is available.
             Let me check with my team and have them follow up with you on your options. May I have your name?</p>
         <button class="copyableInputButton" onclick="copyToClipboard('p3')">COPY</button>
-      >
+    
 
-        <h2> RENTALS! </h2>
+        <h2 id="two"> RENTALS! </h2>
         
-            <p class="copyableInput grey49" id="p5">It appears to be listed as available, but I can check with my team and have them confirm!</p>
+            <p class="copyableInput grey49" id="p5">I would be happy to help you with your request on a rental. however to further assist you with a rental please call our team at:</p>
             <button class="copyableInputButton" onclick="copyToClipboard('p5', 1000)" onclick="return">COPY</button> 
             <p class="copyableInput grey66" id="p6">I apologise, I don't have that information on hand. However, I can have a member of our team confirm. </p>
             <button class="copyableInputButton" onclick="copyToClipboard('p6')">COPY</button>
         
-        <h2> CANSELING SERVICE APPOINMENTS </h2>
+        <h2 id="three"> CANSELING SERVICE APPOINMENTS </h2>
     
-        <p class="copyableInput grey49" id="p7">I apologize I am not able to cancel service appointments on my side, but please call our service team and let them know that you are not able to make it for your appoinment.</p>
+        <p class="copyableInput grey49" id="p7">I would be happy to help you with your request on a cancelling your appoinment. I am unable to cancel your appointment. To do so, please contact our service department during regular business hours.</p>
         <button class="copyableInputButton" onclick="copyToClipboard('p7', 1000)" onclick="return">COPY</button> 
         <p class="copyableInput grey66" id="p8">I apologize, I don't have that information on hand. However, I can have a member of our team confirm. </p>
         <button class="copyableInputButton" onclick="copyToClipboard('p8')">COPY</button>
-        <h2> CONFIRM SERVICE APPOINMENTS </h2>
+        <h2 id="four"> CONFIRM SERVICE APPOINMENTS </h2>
     
-        <p class="copyableInput grey49" id="p10">I would be happy to help you with your service question . I apologize I am not able to confirm your service appoinment.</p>
+        <p class="copyableInput grey49" id="p10">I would be happy to help you with your request on confirming your service appoinment. I apologize I am not able to confirm your service appoinment please call our team at:</p>
         <button class="copyableInputButton" onclick="copyToClipboard('p10', 1000)" onclick="return">COPY</button> 
         
-    <h2> EMAIL REQUEST </h2>
+    <h2 id="five"> EMAIL REQUEST </h2>
     
-        <p class="copyableInput grey49" id="p9">I would be happy to assist you with that! I apologize I do not have any emails of the staff listed to me , however I can provide you with a phone number if you wish!</p>
+        <p class="copyableInput grey49" id="p9">I would be happy to help you with your email request! I apologize I do not have any emails of the staff listed to me , however I can provide you with a phone number if you wish!</p>
         <button class="copyableInputButton" onclick="copyToClipboard('p9', 1000)" onclick="return">COPY</button> 
        
 
 </div>
 
-<div class="container-2">
-    <h2 class="leads">FILLING OUT LEADS SERVICE</h2>
+<div class="container2">
+    <h2 class="leads" id="six"> FILLING OUT LEADS SERVICE</h2>
     <p class="copyableInput grey49" id="p15">Guest inquiring about a service appoinment. They need      for their vehicle with 0000 miles. want to come in on </p>
     <button class="copyableInputButton" onclick="copyToClipboard('p15', 1000)" onclick="return">COPY</button> 
 
-    <p class="copyableInput grey66" id="p11"> Guest inquiring about a quote. they need    for their vehicle with 0000 miles </p>
-    <button class="copyableInputButton" onclick="copyToClipboard('p11')">COPY</button>
+    <p class="copyableInput grey66" id="p19"> Guest inquiring about a quote. they need    for their vehicle with 0000 miles </p>
+    <button class="copyableInputButton" onclick="copyToClipboard('p19')">COPY</button>
      
     <p class="copyableInput grey66" id="p11"> Guest has a general question about their vehicle. they want to know what </p>
     <button class="copyableInputButton" onclick="copyToClipboard('p11')">COPY</button>
-
-    <h2 class="leads">FILLING OUT LEADS SALES</h2>
-    <h2 class="leads">PARTS</h2>
+    <h2 class="leads" id="seven">PARTS</h2>
+    <h3 class="leads">PARTS</h3>
     <p class="copyableInput grey49" id="p17">Guest inquiring about a part for their vehilcle. they need</p>
     <button class="copyableInputButton" onclick="copyToClipboard('p17', 1000)" onclick="return">COPY</button>
-
-    <h2 class="leads">TRADING THEIR VEHILCE</h2>
+    <h2 class="leads" id="last">FILLING OUT LEADS SALES</h2>
+    <h3 class="leads">CONFIRM AVAILABILITY OF A VEHICLE</h3>
+    <p class="copyableInput grey49" id="p18">Guest inquiring about stock#. they need you to confirm availability</p>
+    <button class="copyableInputButton" onclick="copyToClipboard('p18', 1000)" onclick="return">COPY</button>
+   <h3 class="leads">TRADING THEIR VEHICLE</h3>
     <p class="copyableInput grey49" id="p12">Guest inquiring about trading their vehicle with 0000 miles. interested in a  want to come in on </p>
     <button class="copyableInputButton" onclick="copyToClipboard('p12', 1000)" onclick="return">COPY</button> 
 
     <p class="copyableInput grey66" id="p13"> Guest inquiring about a quote. they need    for their vehicle with 0000 miles </p>
     <button class="copyableInputButton" onclick="copyToClipboard('p13')">COPY</button>
 
-    <h2 class="leads">SELLING THEIR VEHICLE</h2>
+    <h3 class="leads" >SELLING THEIR VEHICLE</h3>
     <p class="copyableInput grey49" id="p14">Guest inquiring about selling their vehicle with 0000 miles. wants you to confirm an estimate quote.  will come for an appraisal</p>
     <button class="copyableInputButton" onclick="copyToClipboard('p14', 1000)" onclick="return">COPY</button>
 
