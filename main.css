@@ -1,3 +1,10 @@
+html{
+  transition: all 2.3s;
+  background-image: linear-gradient(to right,#CAC531, #F3F9A7);
+}
+
+
+
 .copied {
    font-size: 3rem;
    color: white;
@@ -14,6 +21,7 @@ h2 {
  font-size:2rem;
  text-align: center;
  color:red;
+ background-color: aqua;
 }
 
 .container1 p{
