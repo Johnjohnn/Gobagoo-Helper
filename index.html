@@ -24,6 +24,8 @@
     <a href="#six">FILLING OUT LEAD SERVICE</a>
     <a href="#seven">PARTS</a>
     <a href="#last" >FILLING OUT LEAD SALES</a>
+    <a href="#missing" >MISSING INFORMATION</a>
+
   </div>
   <span style="font-size:60px;cursor:pointer" onclick="openNav()">&#9776; </span>
 
@@ -42,11 +44,6 @@
 
         <h3>IF NOT IN INVENTORY</h3>
         <p class="copyableInput greycc" id="p3">Allow to have my team check inventory and confirm availability. Is there any specific features you would like?</p>
-        <button class="copyableInputButton" onclick="copyToClipboard('p3')">COPY</button>
-
-      <h3>IF NOT HAVING THE INFORMATION </h3>
-        <p class="copyableInput greycc" id="p3">I do not see one listed Online however. Our online inventory is just a small representation of what is available.
-            Let me check with my team and have them follow up with you on your options. May I have your name?</p>
         <button class="copyableInputButton" onclick="copyToClipboard('p3')">COPY</button>
 
         <h3>WHEN WILL THEY CONTACT ME? </h3>
@@ -109,7 +106,7 @@
 
    
 </div>
-<div class="missing-information">
+<div class="missing-information" id="missing">
     <h3 class="leads" >MISSING INFORMATION PHONE</h3>
     <p class="copyableInput grey49" id="p14">Great. just to finish up your request may I please have your phone number as alternate contact?</p>
     <button class="copyableInputButton" onclick="copyToClipboard('p14', 1000)" onclick="return">COPY</button>
