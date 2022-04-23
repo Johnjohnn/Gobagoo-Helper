@@ -102,3 +102,6 @@ h2 {
       top:0;
       right:25px
   }
+  .missing-information p {
+    font-size: 25px;
+  }
